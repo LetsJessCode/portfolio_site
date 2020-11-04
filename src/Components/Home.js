@@ -1,9 +1,14 @@
 import React from 'react'
+import { Button } from '@material-ui/core';
+
 
 const Home = () => {
     return (
         <div>
             <h3>Home Page</h3>
+            <Button variant="contained" color="primary">
+      Hello World
+    </Button>
             <ul>
                 <li> contact information  
                     <ol>
