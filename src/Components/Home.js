@@ -1,18 +1,17 @@
 import React from 'react'
-import { Button } from '@material-ui/core';
-
+import { MdEmail } from 'react-icons/md'
+import { CgTwitter } from 'react-icons/cg'
+// ------------------------------
 
 const Home = () => {
     return (
         <div>
             <h3>Home Page</h3>
-            <Button variant="contained" color="primary">
-      Hello World
-    </Button>
             <ul>
                 <li> contact information  
                     <ol>
-                        <li>email</li>
+                    <a href="mailto:letsjesscode@gmail.com"><MdEmail /></a> <br />
+                     <a href="https://twitter.com/LetsJessCode"><CgTwitter /></a>
                         <li>social media (twitter and linkedin)</li>
                     </ol>
                 </li>      

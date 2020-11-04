@@ -1,14 +1,17 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import 'fontsource-roboto';
+// ------------------------------
+
 
 const NavBar = () => {
+   
     return (
         <nav>
             <ul>
-                <li><NavLink to="/">Home</NavLink> </li>
-                <li><NavLink to="/Bio">Bio Page</NavLink> </li>
-                <li><NavLink to="/Projects"> Project Portfolio</NavLink> </li>
-               
+                <NavLink to="/">Home</NavLink> |
+                <NavLink to="/Bio">Bio Page</NavLink> |
+                <NavLink to="/Projects"> Project Portfolio</NavLink> |
             </ul>
         </nav>
     )

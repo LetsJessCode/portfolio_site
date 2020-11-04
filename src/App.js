@@ -7,8 +7,8 @@ import Bio from './Components/Bio'
 import Projects from './Components/Projects'
 // ------------------------------
 export class App extends Component {
-
-  render() {
+   render() {
+    
     return (
       <div>
         <Router> 
