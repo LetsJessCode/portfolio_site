@@ -1,5 +1,5 @@
 import React from 'react'
-import 'fontsource-roboto';
+import { GrGithub } from 'react-icons/gr'
 import '../Project/Project.css'
 
 const Projects = () => {
