@@ -1,7 +1,26 @@
 .nav {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
+    padding: 90px;
+    background: #c69dd2;
     color: white;
     font-size: 30px;
   }
+
+ a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color:black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
