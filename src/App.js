@@ -3,7 +3,7 @@ import  NavBar  from './Components/NavBar/NavBar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // ------------------------------
 import About from './Components/About'
-import Projects from './Components/Projects'
+import Projects from './Components/Project/Projects'
 import Footer from './Components/Footer/Footer'
 // ------------------------------
 export class App extends Component {

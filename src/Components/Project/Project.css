@@ -1,0 +1,17 @@
+.nav {
+    background: #7f7eff;
+    color: white;
+  }
+
+.body{
+    background-color: #cc8b8c;
+    padding: 100px;
+    color: white;
+}
+
+.title{
+    text-align: center;
+}
+.fixed-bottom {
+    background: #7f7eff;
+  }

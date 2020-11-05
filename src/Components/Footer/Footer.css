@@ -1,11 +1,11 @@
 .fixed-bottom {
     padding: 45px;
-    background: #c69dd2;
+    /* background: #c69dd2; */
     color: white;
   }
 
 
 .icon {
-    /* text-align: center; */
+    text-align: center;
     padding: 1cm;
 }
