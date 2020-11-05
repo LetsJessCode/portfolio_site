@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import  NavBar  from './Components/NavBar'
+import  NavBar  from './Components/NavBar/NavBar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // ------------------------------
-import Home from './Components/Home'
-import Bio from './Components/Bio'
+import About from './Components/About'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 // ------------------------------
@@ -15,10 +14,8 @@ export class App extends Component {
         <Router> 
           <NavBar />
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/bio" component={Bio} />
+                <Route exact path="/about" component={About} />
                 <Route exact path="/projects" component={Projects} />
-                <Route exact path="/resume" component={Resume} />
                 <Route render={ () => <p>Uh oh, you seem to have lost your way! Click home! </p> } />
             </Switch> 
         </Router>
