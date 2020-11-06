@@ -9,11 +9,15 @@ import '../NavBar/Nav.css'
 const NavBar = () => {
     return (
         <nav className="nav">
-            <ul className="navlink">
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/projects"> Projects</NavLink>
-                <a href="https://learn.co/jessica_shearwood/resume">Resume</a> 
+            <ul>
+                <NavLink className="navlink" to="/about">About</NavLink>
+                <NavLink className="navlink" to="/projects"> Projects</NavLink>
+                <NavLink className="navlink" to="/blogs"> Blogs </NavLink> 
             </ul>
+            <div className="resume">
+                 <a href="https://learn.co/jessica_shearwood/resume">Resume</a> 
+            </div>
+           
         </nav>
     )
 }

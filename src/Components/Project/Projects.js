@@ -8,15 +8,15 @@ const Projects = () => {
     return (
         
         <div className="body">     
-            <h2 className="title">My Projects! </h2>
-            
+            <h2 className="name">My Projects! </h2>
             <div>
-                 <h3 className="textbook"> "TextBook Application" 
-                    <a href="https://github.com/LetsJessCode/textbook"><GrGithub /> </a>
-                </h3>
+                 <h3 className="list"> "TextBook Application" </h3>
+                 <p className="info"> Rails application where you can monitor a students assignments by subject and completion.</p>
                      <ReactPlayer className="video"
                     url="https://youtu.be/UfLDn2Cxg4I" />
-                        <p> This Rails application allows you to create a user account, monitor what students have homework, and which subjects the assignments are in. As a student completes an assignment, it is removed from their homework list.</p>
+                <div className="icon">
+                    <a href="https://github.com/LetsJessCode/textbook"><GrGithub /></a>
+                </div>
             </div>                
             <div>
                 <h3> </h3>

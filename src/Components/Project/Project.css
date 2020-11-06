@@ -9,9 +9,25 @@
     color: white;
 }
 
-.title{
+.name{
     text-align: center;
 }
+
 .fixed-bottom {
     background: #7f7eff;
   }
+
+  .video{
+    border-radius: 10px;
+    overflow: hidden;
+  }
+.list{
+    text-align: left;
+}
+  .info{
+      text-align: left;
+  }
+  .textbook{
+      padding-left: 1cm;
+  }
+  

@@ -2,6 +2,14 @@
     padding: 90px;
     color: white;
     font-size: 30px;
+    text-align: center;
+  }
+  .navlink{
+    padding-left: 1cm;
+    
+  }
+  .resume{
+    padding-left: 3cm;
   }
 
  a:link {
