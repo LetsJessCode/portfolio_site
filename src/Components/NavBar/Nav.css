@@ -2,32 +2,27 @@
     padding: 90px;
     color: white;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
   }
   .navlink{
     padding-left: 1cm;
     
   }
   .resume{
-    padding-left: 3cm;
+    word-spacing: 5cm;
   }
 
- a:link {
-  color: black;
-}
-
-/* visited link */
-a:visited {
-  color:black;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
+a:link, a:visited {
+  background-color: #2f243a;
   color: white;
+  padding-left: 1cm;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
+a:hover, a:active {
+  /* background-color: #2f243a; */
+  color:#e6f9af;
+}

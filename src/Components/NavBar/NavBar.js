@@ -12,12 +12,9 @@ const NavBar = () => {
             <ul>
                 <NavLink className="navlink" to="/about">About</NavLink>
                 <NavLink className="navlink" to="/projects"> Projects</NavLink>
-                <NavLink className="navlink" to="/blogs"> Blogs </NavLink> 
+                <a href="https://learn.co/jessica_shearwood/resume">Resume</a> 
+                 <a href="https://jessicashearwood.medium.com/">Blogs</a>
             </ul>
-            <div className="resume">
-                 <a href="https://learn.co/jessica_shearwood/resume">Resume</a> 
-            </div>
-           
         </nav>
     )
 }

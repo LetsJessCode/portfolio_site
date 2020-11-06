@@ -1,12 +1,12 @@
 .nav {
-    background: #7f7eff;
+    background: #2f243a;
     color: white;
   }
 
 .body{
-    background-color: #cc8b8c;
+    background-color: #bebbbb;
     padding: 100px;
-    color: white;
+    color: #2f243a;
 }
 
 .name{
@@ -14,7 +14,7 @@
 }
 
 .fixed-bottom {
-    background: #7f7eff;
+    background: #2f243a;
   }
 
   .video{
@@ -30,4 +30,6 @@
   .textbook{
       padding-left: 1cm;
   }
-  
+  .icons{
+      background: #bebbbb;
+  }
