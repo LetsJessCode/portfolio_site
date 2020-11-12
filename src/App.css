@@ -1,0 +1,16 @@
+.App {
+    --queenPink: #EAC8CA;
+    --pinkLace: #F2D5F8;
+    --pinkLavendar: #E6C0E9;
+    --lilac: #8f7c9b;
+    --coolGrey: #8D89A6;
+
+    background-image: url("./Components/images/background.jpeg");
+    background-size: cover;
+    box-shadow: 0 0 8px 3px whitesmoke;
+    display: flex;
+}
+
+.body {
+    padding-left: 8px;
+}

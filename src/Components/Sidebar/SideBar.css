@@ -1,0 +1,43 @@
+.sidebar {
+    max-width: 20%;
+    min-width: 20%;
+    height: cover;
+    background-color: var(--queenPink) ;
+    box-shadow: 0 1px 5px 2px var(--queenPink);
+}
+
+.side_items {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding-top: 5%;
+    overflow-y: auto;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 150%;
+    color: var(--coolGrey);
+}
+
+.img {
+    vertical-align: auto;
+}
+
+.profile_pic {
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: whitesmoke;
+    box-shadow: 0 0 8px 3px whitesmoke;
+    position: relative;
+}
+
+.profile_pic:hover, .profile_pic:active {
+    border-color: var(--coolGrey);
+    box-shadow: 0 0 8px 3px var(--coolGrey);
+}

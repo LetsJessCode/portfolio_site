@@ -1,0 +1,21 @@
+.navBar {
+  color: white;
+  text-align: center;
+}
+
+.link {
+  font-size: 125%;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color:var(--coolGrey);
+}
