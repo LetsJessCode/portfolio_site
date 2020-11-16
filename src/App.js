@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import  Header  from './Components/Sidebar/NavBar/Header'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
-import photo from './Components/images/Jess.jpg'
 import Sidebar from './Components/Sidebar/SideBar'
-// ------------------------------
 import About from './Components/About/About'
-import Projects from './Components/Project/Projects'
 import Home from './Components/Home'
-import Footer from './Components/Sidebar/Footer/Footer'
-// ------------------------------
+import Textbook from './Components/Project/Textbook'
+import Soaps from './Components/Project/Soaps'
+import DateNight from './Components/Project/DateNight'
+
+
 export class App extends Component {
    render() {
     
@@ -21,7 +20,9 @@ export class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects/textbook" component={Textbook} />
+          <Route exact path="/projects/soap" component={Soaps} />
+          <Route exact path="/projects/date-night" component={DateNight} />
           <Route render={ () => <p>Uh oh, you seem to have lost your way! Click home! </p> } /> 
         </Switch>
         </div>

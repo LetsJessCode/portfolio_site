@@ -1,35 +1,35 @@
-/* .nav {
-    background: #2f243a;
-    color: white;
-  }
+.project {
 
-.body{
-    background-color: #2f243a;
-    padding: 100px;
-    color: #bebbbb;
 }
 
-.name{
-    text-align: center;
+.breadcrumb {
+
 }
 
-.fixed-bottom {
-    background: #2f243a;
-  }
+.skills {
 
-  .video{
-    border-radius: 10px;
-    overflow: hidden;
-  }
-.list{
-    text-align: left;
 }
-  .info{
-      text-align: left;
-  }
-  .textbook{
-      padding-left: 1cm;
-  }
-  .icons{
-      background: #bebbbb;
-  } */
+
+.skill_title {
+
+}
+
+.project_component {
+  display: block;
+}
+
+.sub_title {
+  display: flex;
+}
+
+.project_title {
+
+}
+
+.project_text {
+
+}
+
+.github_icon {
+
+}
