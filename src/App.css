@@ -7,7 +7,7 @@
 
     background-image: url("./Components/images/background.jpeg");
     background-size: cover;
-    box-shadow: 0 0 8px 3px whitesmoke;
+    box-shadow: 5px 5px 5px 2px var(--queenPink);
     display: flex;
 }
 

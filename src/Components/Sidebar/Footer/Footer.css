@@ -1,7 +1,13 @@
 .icons {
     display: inline-flex;
-    padding-top: 20%;
+    padding-top: 30%;
+    padding: .5cm;
     max-width: 20%;
+}
+
+.footer {
+    padding-top: 10%;
+    padding-left: 5%;
 }
 
 
