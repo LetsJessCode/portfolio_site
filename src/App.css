@@ -8,9 +8,9 @@
     background-image: url("./Components/images/background.jpeg");
     background-size: cover;
     box-shadow: 5px 5px 5px 2px var(--queenPink);
+
     display: flex;
 }
 
-.body {
-    padding-left: 8px;
-}
+
+

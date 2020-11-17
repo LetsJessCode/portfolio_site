@@ -1,35 +1,84 @@
 .project {
-
+  display: block;
 }
 
-.breadcrumb {
-
+.project_header {
+  display: flex;
+  padding-top: 1%;
+  justify-content: center;
 }
 
 .skills {
-
-}
-
-.skill_title {
-
-}
-
-.project_component {
+  padding-top: 20px;
   display: block;
+  text-align: center;
+}
+
+.skill > span {
+  font-weight: bold;
+
+}
+
+.info {
+  display: flex;
+  font-size: medium;
+  text-align: center;
+  padding-left: 15px;
 }
 
 .sub_title {
   display: flex;
+  align-items: baseline;
+  padding-left: 15px;
+}
+.sub_title > h3 {
+  font-size: 225%;
 }
 
-.project_title {
-
+.github > span {
+  display: flex;
+  font-size: 75%;
+  align-items: baseline;
 }
 
-.project_text {
-
+.github > front {
+  font-size: 75%;
+  padding-right: 15px;
+  align-items: baseline;
 }
 
-.github_icon {
+.github {
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+}
 
+.icon {
+  color: whitesmoke;
+  font-size: 175%;
+  padding-left: 15px;
+}
+
+.icon:hover, .icon:active {
+  border-radius: 50%;
+  border-color: var(--coolGrey);
+  box-shadow: 0 0 8px 3px var(--coolGrey);
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+  padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  padding-left: 15px;
+  padding-top:10px;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }

@@ -1,16 +1,12 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import Breadcrumbs from '@material-ui/core/Breadcrumbs'
-import {Link, NavLink} from 'react-router-dom'
-
-function handleClick(e) {
-    e.preventDefault();
-    console.info('You clicked a breadcrumb.');
-}
+import {NavLink} from 'react-router-dom'
+import './Project.css'
 
 export default function ProjectNav() {
     return (
-        <div className="project-nav">
+        <div className="project_nav">
             <Breadcrumbs aria-label="breadcrumb">
             <Typography color="textPrimary">Projects</Typography>
             <NavLink to="/projects/textbook">Textbook</NavLink>
