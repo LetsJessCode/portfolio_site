@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.nav_title{
+  color: var(--purpleLace);
+}
+
 .skills {
   padding-top: 20px;
   display: block;
@@ -61,6 +65,8 @@
 
 .icon:hover, .icon:active {
   border-radius: 50%;
+  height: auto;
+  width: auto;
   border-color: var(--coolGrey);
   box-shadow: 0 0 8px 3px var(--coolGrey);
 }
@@ -70,7 +76,7 @@
 	padding-bottom:56.25%;
   padding-top:30px;
 	height:0;
-	overflow:hidden;
+  overflow:hidden;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -80,5 +86,5 @@
 	top:0;
 	left:0;
 	width:100%;
-	height:100%;
+  height:100%;
 }

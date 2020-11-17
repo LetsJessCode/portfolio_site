@@ -1,15 +1,21 @@
 .App {
+    --queenIce: #eedfe0;
     --queenPink: #EAC8CA;
-    --pinkLace: #F2D5F8;
-    --pinkLavendar: #E6C0E9;
+    --purpleLace: #3f2944;
+    --pinkLavendar: #643966;
     --lilac: #8f7c9b;
     --coolGrey: #8D89A6;
 
-    background-image: url("./Components/images/background.jpeg");
+    background-image: url("./Components/images/roses.jpeg");
     background-size: cover;
     box-shadow: 5px 5px 5px 2px var(--queenPink);
-
+    color: var(--purpleLace);
     display: flex;
+}
+
+.body {
+    background-color: rgb(234, 200, 202, 0.76);
+    box-shadow: 15px 15px 15px 2px rgb(234, 200, 202, 0.76);
 }
 
 

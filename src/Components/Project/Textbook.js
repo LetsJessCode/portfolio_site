@@ -27,7 +27,7 @@ export default function Textbook() {
                 </div>
                 <Typography className="info"> Rails generated web application, allowing you to monitor a students assignments by subject and completion.</Typography>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UfLDn2Cxg4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='Textbook Project'></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UfLDn2Cxg4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='Textbook Project' ></iframe>
                 </div>
             </div>
             <div className="project_footer">

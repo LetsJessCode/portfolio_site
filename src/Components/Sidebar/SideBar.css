@@ -2,8 +2,8 @@
     max-width: 20%;
     min-width: 20%;
     height: cover;
-    background-color: var(--queenPink) ;
-    box-shadow: 0 1px 5px 2px var(--queenPink);
+    background-color: rgb(238, 223, 224, 0.95) ;
+    box-shadow: 15px 15px 15px 2px rgb(238, 223, 224);
 }
 
 .side_items {
@@ -20,7 +20,7 @@
     padding-right: 5%;
     padding-left: 5%;
     font-size: 150%;
-    color: var(--coolGrey);
+    color: var(--purpleLace);
 }
 
 .img {
@@ -31,13 +31,13 @@
     height: 95%;
     width: 95%;
     border-radius: 50%;
-    border-style: solid;
-    border-color: whitesmoke;
-    box-shadow: 0 0 8px 3px whitesmoke;
+    border-style: inset;
+    border-color: var(--lilac);
+    box-shadow: 0 0 8px 3px var(--lilac);
     position: relative;
 }
 
 .profile_pic:hover, .profile_pic:active {
-    border-color: var(--coolGrey);
-    box-shadow: 0 0 8px 3px var(--coolGrey);
+    border-color: var(--purpleLace);
+    box-shadow: 0 0 8px 3px var(--purpleLace);
 }

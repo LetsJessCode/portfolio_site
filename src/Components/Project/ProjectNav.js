@@ -8,7 +8,7 @@ export default function ProjectNav() {
     return (
         <div className="project_nav">
             <Breadcrumbs aria-label="breadcrumb">
-            <Typography color="textPrimary">Projects</Typography>
+            <Typography className="nav_title">Projects</Typography>
             <NavLink to="/projects/textbook">Textbook</NavLink>
             <NavLink to="/projects/soap">Soaps</NavLink>
             <NavLink to="/projects/date-night">DateNight</NavLink>

@@ -12,7 +12,7 @@
 }
 
 a:link, a:visited {
-  color: white;
+  color: var(--pinkLavendar);
   text-decoration: none;
 }
 

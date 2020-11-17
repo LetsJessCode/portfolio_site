@@ -23,7 +23,6 @@ const NavBar = () => {
     
     return (   
         <div className="navBar">
-            <div className="link"><NavLink to="/about">About</NavLink></div>
             <div className="link"><Link onClick={resume}>Resume</Link></div>
             <div className="link"><NavLink to="/projects/textbook"> Projects</NavLink></div>
             <div className="link"><Link onClick={blog}>Blogs</Link></div> 
