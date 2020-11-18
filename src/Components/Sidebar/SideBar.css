@@ -1,0 +1,45 @@
+.sidebar {
+    max-width: 20%;
+    min-width: 20%;
+    height: cover;
+    background-color: rgb(238, 223, 224, 0.95) ;
+    box-shadow: 15px 15px 15px 2px rgb(238, 223, 224);
+}
+
+.side_items {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding-top: 5%;
+    overflow-y: auto;
+}
+
+.sidebar_title {
+    align-items: center;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 150%;
+    color: var(--purpleLace);
+}
+
+.img {
+    vertical-align: auto;
+}
+
+.profile_pic {
+    height: 95%;
+    width: 95%;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: var(--lilac);
+    box-shadow: 0 0 8px 3px var(--lilac);
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.profile_pic:hover, .profile_pic:active {
+    border-color: var(--purpleLace);
+    box-shadow: 0 0 8px 3px var(--purpleLace);
+    top: 2px;
+}

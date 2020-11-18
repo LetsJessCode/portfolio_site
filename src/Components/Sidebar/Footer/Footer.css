@@ -1,0 +1,25 @@
+.icons {
+    display: inline-flex;
+    padding-top: 30%;
+    padding: .5cm;
+    max-width: 20%;
+    color: var(--purpleLace);
+}
+
+.footer {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+/* .fixed-bottom 
+    padding: 45px;
+    /* background: #c69dd2; */
+    /* color: white; */
+  
+
+
+/* .icon 
+    text-align: center;
+    padding: 1cm; */
+

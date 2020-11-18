@@ -1,35 +1,88 @@
-/* .nav {
-    background: #2f243a;
-    color: white;
-  }
-
-.body{
-    background-color: #2f243a;
-    padding: 100px;
-    color: #bebbbb;
+.project {
+  display: block;
 }
 
-.name{
-    text-align: center;
+.project_header {
+  display: flex;
+  padding-top: 1%;
+  justify-content: center;
 }
 
-.fixed-bottom {
-    background: #2f243a;
-  }
-
-  .video{
-    border-radius: 10px;
-    overflow: hidden;
-  }
-.list{
-    text-align: left;
+.nav_title{
+  color: var(--purpleLace);
 }
-  .info{
-      text-align: left;
-  }
-  .textbook{
-      padding-left: 1cm;
-  }
-  .icons{
-      background: #bebbbb;
-  } */
+
+.skills {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+.skill > span {
+  font-weight: bold;
+
+}
+
+.info {
+  display: flex;
+  font-size: small;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.sub_title {
+  display: flex;
+  align-items: baseline;
+  padding-left: 5px;
+}
+.sub_title > h3 {
+  font-size: 35px;
+}
+
+.github > span {
+  display: flex;
+  font-size: 75%;
+  align-items: baseline;
+}
+
+.github > front {
+  font-size: 75%;
+  padding-right: 15px;
+  align-items: baseline;
+}
+
+.github {
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.icon {
+  color: whitesmoke;
+  font-size: 175%;
+  padding-left: 5px;
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.icon:hover, .icon:active {
+  color: var(--coolGrey);
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+  padding-top:30px;
+	height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  padding-left: 5px;
+  padding-top:10px;
+	top:0;
+	left:0;
+	width:100%;
+  height:100%;
+}
