@@ -35,9 +35,11 @@
     border-color: var(--lilac);
     box-shadow: 0 0 8px 3px var(--lilac);
     position: relative;
+    transition: all .2s ease-in-out;
 }
 
 .profile_pic:hover, .profile_pic:active {
     border-color: var(--purpleLace);
     box-shadow: 0 0 8px 3px var(--purpleLace);
+    top: 2px;
 }

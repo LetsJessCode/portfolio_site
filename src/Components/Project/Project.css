@@ -25,18 +25,18 @@
 
 .info {
   display: flex;
-  font-size: medium;
+  font-size: small;
   text-align: center;
-  padding-left: 15px;
+  padding-left: 5px;
 }
 
 .sub_title {
   display: flex;
   align-items: baseline;
-  padding-left: 15px;
+  padding-left: 5px;
 }
 .sub_title > h3 {
-  font-size: 225%;
+  font-size: 35px;
 }
 
 .github > span {
@@ -60,15 +60,13 @@
 .icon {
   color: whitesmoke;
   font-size: 175%;
-  padding-left: 15px;
+  padding-left: 5px;
+  position: relative;
+  transition: all .2s ease-in-out;
 }
 
 .icon:hover, .icon:active {
-  border-radius: 50%;
-  height: auto;
-  width: auto;
-  border-color: var(--coolGrey);
-  box-shadow: 0 0 8px 3px var(--coolGrey);
+  color: var(--coolGrey);
 }
 
 .video-container {
@@ -81,7 +79,7 @@
 
 .video-container iframe, .video-container object, .video-container embed {
   position:absolute;
-  padding-left: 15px;
+  padding-left: 5px;
   padding-top:10px;
 	top:0;
 	left:0;

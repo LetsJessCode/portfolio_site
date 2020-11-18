@@ -25,7 +25,7 @@ export default function Soaps() {
                 </div>
                 <Typography className="info"> CSS Styling and Vanilla JavaScript Frontend Rails Scaffold API, Backend. </Typography>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S5_O_5V4NAc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S5_O_5V4NAc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Soap Project"></iframe>
                 </div>
             </div>
             <div className="project_footer">

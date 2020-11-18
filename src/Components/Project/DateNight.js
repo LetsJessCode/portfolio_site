@@ -30,7 +30,7 @@ export default function DateNight() {
                 </div>
                 <Typography className="info"> CSS Styling, React / Redux Frontend Built with Rails Generated Api Backend </Typography>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IzxLP0hkT44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IzxLP0hkT44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Date Night Project"></iframe>
                 </div>
             </div>
             <div className="project_footer">

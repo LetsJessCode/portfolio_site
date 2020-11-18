@@ -3,6 +3,7 @@ import { MdEmail } from 'react-icons/md'
 import { CgTwitter } from 'react-icons/cg'
 import { GrLinkedin } from 'react-icons/gr'
 import { GrGithub } from 'react-icons/gr'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 const email = () => {
@@ -26,10 +27,10 @@ export class Footer extends Component {
     render() {
         return (
             <div className="footer"> 
-                 <div className= "icons"><a onClick={email}><MdEmail /></a></div>
-                 <div className= "icons"><a onClick={twitter}><CgTwitter /></a></div>
-                 <div className= "icons"><a onClick={linkedin}><GrLinkedin /></a></div>
-                 <div className= "icons"><a onClick={github}><GrGithub /> </a></div>
+                 <div className= "icons"><Link onClick={email}><MdEmail /></Link></div>
+                 <div className= "icons"><Link onClick={twitter}><CgTwitter /></Link></div>
+                 <div className= "icons"><Link onClick={linkedin}><GrLinkedin /></Link></div>
+                 <div className= "icons"><Link onClick={github}><GrGithub /> </Link></div>
             </div>
         )
     }
